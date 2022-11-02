@@ -1,5 +1,5 @@
 # Static-Web-Page
-##LAB1 - Static Web Page using HTML
+## LAB1 - Static Web Page using HTML
 
 ### The following are incorporated:
 1. Text formatting
