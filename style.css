@@ -1,0 +1,159 @@
+:root {
+    --prim-color: #e3e3e3;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--prim-color);
+}
+
+/* xs */
+@media(max-width: 576px) {
+    #login {
+        background-color: white;
+        border-radius: 1.5em;
+        padding: 3em;
+        width: 90vw;
+        margin-top: 15vh;
+    }
+
+    #loginForm {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+/* sm */
+@media(max-width: 768px) and (min-width: 576px) {
+    #login {
+        background-color: white;
+        border-radius: 1.5em;
+        padding: 3em;
+        width: 80vw;
+        margin-top: 18vh;
+    }
+
+    #loginForm {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+}
+
+/* md */
+@media(max-width: 992px) and (min-width: 768px) {
+    #login {
+        background-color: white;
+        border-radius: 1.5em;
+        padding: 3em;
+        width: 60vw;
+        margin-top: 18vh;
+    }
+
+    #loginForm {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+}
+
+/* lg */
+@media(max-width: 1200px) and (min-width: 993px) {
+    #carouselMain .carousel-item img {
+        max-height: min-content;
+    }
+
+    #login {
+        background-color: white;
+        border-radius: 1.5em;
+        padding: 3em;
+        width: 40vw;
+        margin-top: 18vh;
+    }
+
+    #loginForm {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+/* xl */
+@media(min-width: 1200px) {
+    #login {
+        background-color: white;
+        border-radius: 1.5em;
+        padding: 3em;
+        width: 40vw;
+        margin-top: 18vh;
+    }
+
+    #loginForm {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+#nav-logo {
+    width: 2.5em;
+    height: auto;
+}
+
+#login {
+    position: relative;
+}
+
+#sign-up {
+    position: absolute;
+    bottom: 3;
+    right: 1.2em;
+}
+
+#lists {
+    font-size: 1.3em;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#lists h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.list-head {
+    text-decoration: underline;
+}
+
+#shop-img {
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+/* Table */
+table {
+    border: 1px dashed;
+    background-color: rgba(255, 255, 255, 0.885);
+    overflow-x:auto;
+    overflow-y: hidden;
+}
+
+.sizeChart {
+    color: #10173A;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.sizeChart thead {
+    background: #10173A;
+    color: #f16021;
+}
+
+.sizeChart tr:nth-child(even) {
+    background: #777C8C;
+}
+
+.sizeChart tbody tr td:first-child {
+    font-size: 20px;
+}
+
+.sizeChart .men {
+    transform: rotate(270deg);
+    color: #45474f;
+    font-weight: 900;
+}
